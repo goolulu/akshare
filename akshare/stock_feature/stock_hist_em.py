@@ -1588,7 +1588,7 @@ def stock_hk_hist_min_em(
     return temp_df
 
 
-def stock_us_spot_em() -> pd.DataFrame:
+def stock_us_spot_em(pn:int , pz:int) -> pd.DataFrame:
     """
     东方财富网-美股-实时行情
     https://quote.eastmoney.com/center/gridlist.html#us_stocks
